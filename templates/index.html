@@ -5,7 +5,7 @@ body %}
   <h2>Add a Todo</h2>
   <form action="/" method="POST">
     <div class="mb-3">
-      <label for="title" class="form-label">Todo Title</label>
+      <label for="title" class="form-label">your name</label>
       <input
         type="text"
         class="form-control"
@@ -15,13 +15,13 @@ body %}
       />
     </div>
     <div class="mb-3">
-      <label for="desc" class="form-label">Todo Description</label>
+      <label for="desc" class="form-label">hobby</label>
       <input type="text" class="form-control" id="desc" name="desc" />
     </div>
     <button type="submit" class="btn btn-outline-secondary">Submit</button>
   </form>
 </div>
-<div class="container my-3">
+<!-- <div class="container my-3">
   <h1>Your todos</h1>
 
   {% if allTodo|length==0 %}
@@ -67,6 +67,6 @@ body %}
     </tbody>
   </table>
   {% endif %}
-</div>
+</div> -->
 
 {% endblock body %}
